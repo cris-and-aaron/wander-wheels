@@ -1,11 +1,13 @@
 import Logo from "./Logo";
 import ProfileIcon from "./ProfileIcon";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav>
       <Logo />
-      <h1>Wander Wheels</h1>
+      <NavLink to='/'>
+        <h1>Wander Wheels</h1>
+      </NavLink>
       <ProfileIcon />
     </nav>
   );

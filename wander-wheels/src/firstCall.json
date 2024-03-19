@@ -1,0 +1,467 @@
+{
+  "route": {
+    "sessionId": "AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car",
+    "realTime": 4820,
+    "distance": 66.9372,
+    "time": 4153,
+    "formattedTime": "01:09:13",
+    "hasHighway": true,
+    "hasTollRoad": true,
+    "hasBridge": true,
+    "hasSeasonalClosure": false,
+    "hasTunnel": true,
+    "hasFerry": false,
+    "hasUnpaved": false,
+    "hasTimedRestriction": false,
+    "hasCountryCross": false,
+    "legs": [
+      {
+        "index": 0,
+        "hasTollRoad": true,
+        "hasHighway": true,
+        "hasBridge": true,
+        "hasUnpaved": false,
+        "hasTunnel": true,
+        "hasSeasonalClosure": false,
+        "hasFerry": false,
+        "hasCountryCross": false,
+        "hasTimedRestriction": false,
+        "distance": 66.9372,
+        "time": 4820,
+        "formattedTime": "01:20:20",
+        "origIndex": 0,
+        "origNarrative": "",
+        "destIndex": 0,
+        "destNarrative": "",
+        "maneuvers": [
+          {
+            "index": 0,
+            "distance": 0.0516,
+            "narrative": "Head toward Church St on Chambers St. Go for 272 ft.",
+            "time": 46,
+            "direction": 2,
+            "directionName": "Northwest",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:00:46",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.714532,
+              "lng": -74.007119
+            },
+            "turnType": 0,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["Chambers St"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.714532,-74.007119|marker-1||40.7149,-74.00797|marker-2||&center=40.714715999999996,-74.0075445&defaultMarker=none&zoom=16&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 1,
+            "distance": 0.2715,
+            "narrative": "Turn right onto Church St. Go for 0.3 mi.",
+            "time": 105,
+            "direction": 3,
+            "directionName": "Northeast",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:01:45",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.7149,
+              "lng": -74.00797
+            },
+            "turnType": 2,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["Church St"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.7149,-74.00797|marker-2||40.71829999999999,-74.00539|marker-3||&center=40.7166,-74.00668&defaultMarker=none&zoom=14&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 2,
+            "distance": 0.3741,
+            "narrative": "Keep left onto 6th Ave. Go for 0.4 mi.",
+            "time": 187,
+            "direction": 1,
+            "directionName": "North",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:03:07",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.71829999999999,
+              "lng": -74.00539
+            },
+            "turnType": 17,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["6th Ave", "Avenue of the Americas"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.71829999999999,-74.00539|marker-3||40.72361999999998,-74.00481000000002|marker-4||&center=40.72095999999999,-74.00510000000001&defaultMarker=none&zoom=14&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 3,
+            "distance": 0.0696,
+            "narrative": "Turn left onto Watts St. Go for 367 ft.",
+            "time": 37,
+            "direction": 7,
+            "directionName": "West",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:00:37",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.72361999999998,
+              "lng": -74.00481000000002
+            },
+            "turnType": 6,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["Watts St"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.72361999999998,-74.00481000000002|marker-4||40.723779999999984,-74.00610000000003|marker-5||&center=40.72369999999998,-74.00545500000003&defaultMarker=none&zoom=16&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 4,
+            "distance": 0.9066,
+            "narrative": "Turn right onto Holland Tunnel toward Holland Tunnel. Go for 0.9 mi.",
+            "time": 133,
+            "direction": 7,
+            "directionName": "West",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:02:13",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.723779999999984,
+              "lng": -74.00610000000003
+            },
+            "turnType": 2,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["Holland Tunnel"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.723779999999984,-74.00610000000003|marker-5||40.72762999999999,-74.02121000000002|marker-6||&center=40.72570499999999,-74.01365500000003&defaultMarker=none&zoom=13&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 5,
+            "distance": 1.0184,
+            "narrative": "Continue on Holland Tunnel. Go for 1.0 mi.",
+            "time": 193,
+            "direction": 7,
+            "directionName": "West",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:03:13",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.72762999999999,
+              "lng": -74.02121000000002
+            },
+            "turnType": 0,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["Holland Tunnel"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.72762999999999,-74.02121000000002|marker-6||40.73154000000002,-74.03944000000001|marker-7||&center=40.729585,-74.03032500000002&defaultMarker=none&zoom=13&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 6,
+            "distance": 0.307,
+            "narrative": "Continue on 14th St. Go for 0.3 mi.",
+            "time": 75,
+            "direction": 7,
+            "directionName": "West",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:01:15",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.73154000000002,
+              "lng": -74.03944000000001
+            },
+            "turnType": 0,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["14th St"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.73154000000002,-74.03944000000001|marker-7||40.73203000000004,-74.04519|marker-8||&center=40.73178500000003,-74.042315&defaultMarker=none&zoom=14&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 7,
+            "distance": 8.0144,
+            "narrative": "Keep right onto I-78 W (New Jersey Tpke Ext) toward New Jersey Turnpike/I-78/I-95. Go for 8.0 mi.",
+            "time": 621,
+            "direction": 7,
+            "directionName": "West",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:10:21",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.73203000000004,
+              "lng": -74.04519
+            },
+            "turnType": 16,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": [
+              "I-78",
+              "New Jersey Tpke Ext",
+              "Newark Bay Brg",
+              "Vincent R Casciano Memorial Brg"
+            ],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.73203000000004,-74.04519|marker-8||40.70693000000005,-74.15256000000008|marker-9||&center=40.71948000000005,-74.09887500000005&defaultMarker=none&zoom=10&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 8,
+            "distance": 43.7731,
+            "narrative": "Take the exit toward New Jersey Turnpike South/Trenton onto I-95 S (New Jersey Tpke Cars Only Ln). Go for 43.8 mi.",
+            "time": 2482,
+            "direction": 6,
+            "directionName": "Southwest",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:41:22",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.70693000000005,
+              "lng": -74.15256000000008
+            },
+            "turnType": 14,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": [
+              "I-95",
+              "New Jersey Tpke Cars Only Ln",
+              "Sgt John Basilone Memorial Brg"
+            ],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.70693000000005,-74.15256000000008|marker-9||40.20045000000004,-74.5910900000002|marker-10||&center=40.453690000000044,-74.37182500000014&defaultMarker=none&zoom=7&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 9,
+            "distance": 8.0064,
+            "narrative": "Take exit 7A toward Trenton onto I-195 W. Go for 8.0 mi.",
+            "time": 505,
+            "direction": 7,
+            "directionName": "West",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:08:25",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.20045000000004,
+              "lng": -74.5910900000002
+            },
+            "turnType": 14,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["I-195"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.20045000000004,-74.5910900000002|marker-10||40.18385,-74.72257000000025|marker-11||&center=40.19215000000002,-74.65683000000021&defaultMarker=none&zoom=10&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 10,
+            "distance": 1.4267,
+            "narrative": "Continue on RT-29 N/RT-129 N toward I-195/RT-29/RT-129/Trenton. Go for 1.4 mi.",
+            "time": 85,
+            "direction": 7,
+            "directionName": "West",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:01:25",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.18385,
+              "lng": -74.72257000000025
+            },
+            "turnType": 0,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["RT-29", "RT-129"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.18385,-74.72257000000025|marker-11||40.18941000000001,-74.74743000000026|marker-12||&center=40.18663000000001,-74.73500000000026&defaultMarker=none&zoom=12&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 11,
+            "distance": 2.0474,
+            "narrative": "Continue on RT-29 N toward Capitol Complex/Lambertville. Go for 2.0 mi.",
+            "time": 187,
+            "direction": 2,
+            "directionName": "Northwest",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:03:07",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.18941000000001,
+              "lng": -74.74743000000026
+            },
+            "turnType": 0,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["RT-29", "John Fitch Way"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.18941000000001,-74.74743000000026|marker-12||40.21153000000003,-74.76682000000032|marker-13||&center=40.200470000000024,-74.75712500000029&defaultMarker=none&zoom=12&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 12,
+            "distance": 0.6344,
+            "narrative": "Take the exit toward RT-33/Market St onto Market St. Go for 0.6 mi.",
+            "time": 155,
+            "direction": 3,
+            "directionName": "Northeast",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:02:35",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.21153000000003,
+              "lng": -74.76682000000032
+            },
+            "turnType": 14,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["Market St"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.21153000000003,-74.76682000000032|marker-13||40.217390000000016,-74.75926000000028|marker-14||&center=40.214460000000024,-74.7630400000003&defaultMarker=none&zoom=13&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 13,
+            "distance": 0.036,
+            "narrative": "Turn left onto S Stockton St. Go for 190 ft.",
+            "time": 9,
+            "direction": 1,
+            "directionName": "North",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:00:09",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.217390000000016,
+              "lng": -74.75926000000028
+            },
+            "turnType": 6,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": ["S Stockton St"],
+            "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=9u1zeKeyrUNE2CFssNSOo3XlsHCNo6dB&size=225,160&locations=40.217390000000016,-74.75926000000028|marker-14||40.21789000000002,-74.75942000000028|marker-15||&center=40.21764000000002,-74.75934000000028&defaultMarker=none&zoom=16&session=AH8A_v___wIAAQCsAAAAeNpjWMPAwMTAwMCekVqUapWc2z-pTBLIZficblnPwWiVFe89_9bnGB8gvQNIM-AA_4EAZsKu5G0SIDFDC_lmBsbGsmterYUzY2A0PhNA9N6YVSI7gHSD1spdAkIKDEwcYOkGRgaGKRoTlQDtuywGWLUv5A:car"
+          },
+          {
+            "index": 14,
+            "distance": 0,
+            "narrative": "Arrive at S Stockton St.",
+            "time": 0,
+            "direction": 0,
+            "directionName": "None",
+            "signs": [],
+            "maneuverNotes": [],
+            "formattedTime": "00:00:00",
+            "transportMode": "car",
+            "startPoint": {
+              "lat": 40.21789000000002,
+              "lng": -74.75942000000028
+            },
+            "turnType": 0,
+            "attributes": 0,
+            "iconUrl": "",
+            "streets": []
+          }
+        ]
+      }
+    ],
+    "options": {
+      "routeType": "FASTEST",
+      "narrativeType": "text",
+      "enhancedNarrative": false,
+      "walkingSpeed": -1,
+      "highwayEfficiency": 22,
+      "avoids": false,
+      "generalize": -1,
+      "shapeFormat": "raw",
+      "unit": "M",
+      "locale": "en_US",
+      "useTraffic": false,
+      "timeType": 0,
+      "dateType": 0,
+      "doReverseGeocode": true,
+      "manMaps": true,
+      "tollCost": false,
+      "sideOfStreetDisplay": true
+    },
+    "boundingBox": {
+      "ul": {
+        "lat": 40.73204000000003,
+        "lng": -74.76706000000031
+      },
+      "lr": {
+        "lat": 40.18379999999999,
+        "lng": -74.00481000000002
+      }
+    },
+    "name": "I-95 and I-78",
+    "maxRoutes": "",
+    "locations": [
+      {
+        "street": "",
+        "adminArea6": "",
+        "adminArea6Type": "Neighborhood",
+        "adminArea5": "New York",
+        "adminArea5Type": "City",
+        "adminArea4": "New York",
+        "adminArea4Type": "County",
+        "adminArea3": "NY",
+        "adminArea3Type": "State",
+        "adminArea1": "US",
+        "adminArea1Type": "Country",
+        "postalCode": "",
+        "geocodeQualityCode": "A5XAX",
+        "geocodeQuality": "CITY",
+        "dragPoint": false,
+        "sideOfStreet": "N",
+        "linkId": "0",
+        "unknownInput": "",
+        "type": "s",
+        "latLng": {
+          "lat": 40.71453,
+          "lng": -74.00712
+        },
+        "displayLatLng": {
+          "lat": 40.71453,
+          "lng": -74.00712
+        },
+        "mapUrl": ""
+      },
+      {
+        "street": "",
+        "adminArea6": "",
+        "adminArea6Type": "Neighborhood",
+        "adminArea5": "",
+        "adminArea5Type": "City",
+        "adminArea4": "",
+        "adminArea4Type": "County",
+        "adminArea3": "NJ",
+        "adminArea3Type": "State",
+        "adminArea1": "US",
+        "adminArea1Type": "Country",
+        "postalCode": "",
+        "geocodeQualityCode": "A3XAX",
+        "geocodeQuality": "STATE",
+        "dragPoint": false,
+        "sideOfStreet": "N",
+        "linkId": "0",
+        "unknownInput": "",
+        "type": "s",
+        "latLng": {
+          "lat": 40.21789,
+          "lng": -74.75942
+        },
+        "displayLatLng": {
+          "lat": 40.21789,
+          "lng": -74.75942
+        },
+        "mapUrl": ""
+      }
+    ],
+    "locationSequence": [0, 1]
+  },
+  "info": {
+    "statuscode": 0,
+    "copyright": {
+      "text": "© 2024 MapQuest, Inc.",
+      "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+      "imageAltText": "© 2024 MapQuest, Inc."
+    },
+    "messages": []
+  }
+}
