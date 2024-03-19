@@ -18,6 +18,10 @@ nav {
   max-height: 4rem;
 }
 
+a:visited {
+  color: black;
+}
+
 h1 {
   font-size: 2.3rem;
 }
@@ -44,7 +48,12 @@ a {
 #inputs {
   margin: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#inputs button {
+  padding: 0.5rem;
 }
 
 .input {
