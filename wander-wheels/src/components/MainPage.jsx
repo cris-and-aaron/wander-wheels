@@ -1,5 +1,6 @@
 import StartInput from "./StartInput";
 import EndInput from "./EndInput";
+import Map from "./Map";
 import { useState } from "react";
 import {handleFetch} from "../utils/utils.js";
 import API_KEY from "../utils/config.js"
@@ -17,6 +18,7 @@ const MainPage = () => {
     };
     
     return (
+      <>
       <div>
         <form id="inputs" onSubmit={handleSubmit}>
           <StartInput state={startInput} />
@@ -24,6 +26,8 @@ const MainPage = () => {
           <button>Go</button>
         </form>
       </div>
+      <Map />
+      </>
     );
 }
 export default MainPage;
