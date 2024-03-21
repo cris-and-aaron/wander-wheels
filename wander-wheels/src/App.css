@@ -16,6 +16,18 @@ nav {
   padding-right: 1rem;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 a:visited {
   color: black;
 }
@@ -86,4 +98,8 @@ a {
   margin: 2rem;
   display: flex;
   justify-content: space-between;
+}
+#map {
+  height: 100%;
+  border: #325d79 solid 3px;
 }

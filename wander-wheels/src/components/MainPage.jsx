@@ -2,6 +2,7 @@ import Card from "./Card";
 import map from "../assets/map.png";
 import car2 from "../assets/car2.png";
 import route from "../assets/route.png";
+import { NavLink } from "react-router-dom";
 const MainPage = () => {
   return (
     <>
@@ -15,6 +16,9 @@ const MainPage = () => {
               exploration.
             </small>
           </div>
+          <NavLink to="/map">
+            <button>Go to map</button>
+          </NavLink>
         </div>
       </div>
       <div className="container">

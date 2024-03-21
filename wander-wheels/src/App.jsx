@@ -3,6 +3,7 @@ import MainPage from "./components/MainPage";
 import NavBar from "./components/NavBar";
 import Map from "./components/Map";
 import { Routes, Route } from "react-router-dom";
+import NotFoundPage from "./pages/NotFoundPage"
 const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/map" element={<Map />}></Route>
+        <Route path="*" element={<NotFoundPage/>}/>
       </Routes>
     </>
   );
