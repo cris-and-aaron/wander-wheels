@@ -4,12 +4,12 @@
 }
 
 body {
-  background-color: #ffd07b;
+  background-color: #efeeee;
 }
 
 nav {
   display: flex;
-  background-color: #296eb4;
+  background-color: #f26627;
   justify-content: space-between;
   align-content: center;
   padding: 2rem;
@@ -27,33 +27,34 @@ h1 {
 }
 
 img {
-  max-width: 4rem;
+  max-width: 2rem;
+  max-height: 2rem;
 }
 
 a {
   display: grid;
 }
 
-#logo {
-  justify-self: center;
-}
-
-#profile-icon {
-  height: 2rem;
-  background-color: #fdb833;
-  padding: 0.3rem;
-  border-radius: 1rem;
-}
-
 #inputs {
   margin: 1rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   gap: 2rem;
+  width: 35%;
+  align-items: center;
 }
 
 #inputs button {
   padding: 0.5rem;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #325d79;
+  padding: 5rem;
+  background-color: #f9a26c;
 }
 
 .input {

@@ -1,14 +1,12 @@
 import Logo from "./Logo";
-import ProfileIcon from "./ProfileIcon";
 import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav>
       <Logo />
-      <NavLink to='/'>
-        <h1>Wander Wheels</h1>
+      <NavLink to="/login">
+        <button>Login</button>
       </NavLink>
-      <ProfileIcon />
     </nav>
   );
 };
