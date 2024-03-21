@@ -3,14 +3,14 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import MapContextProvider from "./context/MapContextProvider.jsx";
+import RouteProvider from "./context/RouteProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
-  <MapContextProvider>
+  <RouteProvider>
     <Router>
       <App />
     </Router>
-  </MapContextProvider>
+  </RouteProvider>
   // </React.StrictMode>,
 );
