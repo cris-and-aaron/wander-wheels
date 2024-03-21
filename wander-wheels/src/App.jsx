@@ -9,6 +9,7 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/map" element={<Map />}></Route>
       </Routes>
     </>
   );

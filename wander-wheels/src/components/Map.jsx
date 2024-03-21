@@ -1,28 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import API_KEY from "../utils/config.js";
+import context from "../context/MapContext.jsx";
+import { useNavigate } from "react-router-dom";
 
-export default function Map({ route }) {
+export default function Map() {
+  const navigate = useNavigate();
+  const { route } = useContext(context);
+  let map;
   useEffect(() => {
-    const makeMap = async () => {
-      try {
     L.mapquest.key = API_KEY;
-    L.mapquest.map("map", {
-      center: [17, -13],
-      layers: L.mapquest.tileLayer("map"),
+    map = L.mapquest.map("map", {
+      center: [0, 0],
+      layer: L.mapquest.tileLayer("dark"),
       zoom: 12,
-      zoomControl: false,
+      scrollWheelZoom: false,
     });
-    console.log(route);
-    var directions = L.mapquest.directions();
+    let directions = L.mapquest.directions();
     directions.route({
       locations: route,
     });
-  } catch (e) {
-    console.error(e);
-  }
-  }
-  makeMap();
-  },[route]);
-
-  return <div id="map" style={{ width: "100%", height: "400px" }}></div>;
+  });
+  const handleClick = () => {
+    map.remove();
+    navigate("/");
+  };
+  return (
+    <>
+      <div id="map" style={{ width: "100%", height: "400px" }}></div>
+      <button onClick={handleClick}>Go Home</button>
+    </>
+  );
 }
