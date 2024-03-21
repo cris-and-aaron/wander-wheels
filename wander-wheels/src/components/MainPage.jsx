@@ -1,33 +1,24 @@
 import StartInput from "./StartInput";
 import EndInput from "./EndInput";
+import Map from "./Map";
 import { useContext, useState } from "react";
-import context from "../context/MapContext";
-import { useNavigate } from "react-router-dom";
 import { handleFetch } from "../utils/utils.js";
 import API_KEY from "../utils/config.js";
+import RouteContext from "../context/RouteContext.jsx";
 
 const MainPage = () => {
-  const navigate = useNavigate();
   const [startInput, setStartInput] = useState("");
   const [endInput, setEndInput] = useState("");
-  const { route, setRoute } = useContext(context);
+  const { setRouteData } = useContext(RouteContext);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const { start, end } = Object.fromEntries(new FormData(e.target));
     const data = await handleFetch(
-      `https://www.mapquestapi.com/directions/v2/route?key=${API_KEY}&from=${startInput}&to=${endInput}`
+      `https://www.mapquestapi.com/directions/v2/route?key=${API_KEY}&from=${start}&to=${end}`
     );
-    setRoute(
-      data[0].route.legs[0].maneuvers.map((el) => [
-        Number(el.startPoint.lat),
-        Number(el.startPoint.lng),
-      ])
-    );
-    console.log(route.length);
-    if (route.length > 50) {
-      alert("Route too long");
-      return;
-    }
-    navigate("/map");
+    setRouteData(data);
+    console.log(data);
     e.target.reset();
   };
 
@@ -40,6 +31,7 @@ const MainPage = () => {
           <button>Go</button>
         </form>
       </div>
+      <Map />
     </>
   );
 };
