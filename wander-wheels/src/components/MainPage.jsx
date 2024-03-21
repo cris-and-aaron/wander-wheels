@@ -1,3 +1,7 @@
+import Card from "./Card";
+import map from "../assets/map.png";
+import car2 from "../assets/car2.png";
+import route from "../assets/route.png";
 const MainPage = () => {
   return (
     <>
@@ -12,6 +16,11 @@ const MainPage = () => {
             </small>
           </div>
         </div>
+      </div>
+      <div className="container">
+        <Card img={map} />
+        <Card img={car2} />
+        <Card img={route} />
       </div>
     </>
   );
