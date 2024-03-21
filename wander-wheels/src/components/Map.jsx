@@ -105,7 +105,7 @@ export default function Map() {
 
     navigator.geolocation.getCurrentPosition(success, error, {
       enableHighAccuracy: true,
-    // L.mapquest.key = API_KEY;
+    });
   }, [routeData]);
   return <div id="map" style={{ width: "100%", height: "400px" }}></div>;
 }
